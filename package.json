@@ -1,0 +1,26 @@
+{
+  "name": "franken-js-pwa",
+  "version": "1.0.0",
+  "description": "A little demo application to show the update behaviour of a service worker",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd serviceWorkerCycle && http-server -c 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteffenJahr/franken-js-pwa.git"
+  },
+  "keywords": [
+    "pwa",
+    "serviceworker"
+  ],
+  "author": "Steffen Jahr <steffen.jahr@thinktecture.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SteffenJahr/franken-js-pwa/issues"
+  },
+  "homepage": "https://github.com/SteffenJahr/franken-js-pwa#readme",
+  "dependencies": {
+    "http-server": "0.10.0"
+  }
+}
